@@ -6,14 +6,15 @@
 }
 
 h1 {
-  padding: 20px;
   color: var(--primary-color);
   font-family: var(--primary-font);
   font-weight: bold;
 }
-h3 {
+h3,
+h4 {
+  padding: 20px 0 0;
   font-family: var(--secondary-font);
-  font-weight: bold;
+  font-weight: bolder;
 }
 .btn-branding {
   background: var(--secondary-color);
