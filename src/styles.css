@@ -46,8 +46,6 @@ h2 {
   cursor: pointer;
 }
 .btn-branding-outline {
-  display: block;
-  margin: 0 auto;
   border-radius: 4px;
   padding: 20px 100px;
   text-decoration: none;
@@ -80,5 +78,9 @@ h2 {
     font-size: 20px;
     line-height: 1;
     text-align: center;
+  }
+  .btn-branding-outline {
+    display: block;
+    margin: 0 auto;
   }
 }
