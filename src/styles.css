@@ -3,6 +3,7 @@
   --secondary-color: #ff7c00;
   --primary-font: "Playfair Display", serif;
   --secondary-font: "Poppins", sans-serif;
+  --box-shadow: 1px 1px black;
 }
 
 h1 {
@@ -71,7 +72,7 @@ h2 {
 }
 @media (max-width: 900px) {
   h1 {
-    font-size: 40px;
+    font-size: 32px;
     line-height: 1;
   }
   h2 {
@@ -83,4 +84,13 @@ h2 {
     display: block;
     margin: 0 auto;
   }
+  .btn-branding {
+    display: block;
+    margin: 0 auto;
+  }
+}
+.about-section {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
 }
