@@ -9,6 +9,12 @@ h1 {
   color: var(--primary-color);
   font-family: var(--primary-font);
   font-weight: bold;
+  font-size: 96px;
+  line-height: 1.5;
+}
+h2 {
+  font-size: 44px;
+  line-height: 1.5;
 }
 h3,
 h4 {
@@ -22,11 +28,35 @@ h4 {
   padding: 12px 30px;
   margin: 20px;
 }
-.container {
+.btn-branding-outline {
+  display: block;
+  margin: 0 auto;
+  border-radius: 4px;
+  padding: 20px 100px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+.hero {
   text-align: center;
   background: linear-gradient(
     -20deg,
     rgb(233, 222, 250) 0%,
     rgb(251, 252, 219) 100%
   );
+}
+.text-wrapping {
+  margin: 50px 0;
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 40px;
+    line-height: 1;
+  }
+  h3 {
+    font-size: 20px;
+    line-height: 1;
+  }
 }
