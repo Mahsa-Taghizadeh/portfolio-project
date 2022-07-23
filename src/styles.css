@@ -1,6 +1,6 @@
 :root {
   --primary-color: rgb(164, 67, 255);
-  --secondary-color: rgb(255, 196, 0);
+  --secondary-color: #ff7c00;
   --primary-font: "Playfair Display", serif;
   --secondary-font: "Poppins", sans-serif;
 }
@@ -13,20 +13,37 @@ h1 {
   line-height: 1.5;
 }
 h2 {
-  font-size: 44px;
+  font-size: 34px;
   line-height: 1.5;
-}
-h3,
-h4 {
   padding: 20px 0 0;
-  font-family: var(--secondary-font);
+  font-family: var(--Primary-font);
   font-weight: bolder;
+}
+.p-title {
+  color: var(--primary-color);
+  font-size: 34px;
+  line-height: 1.5;
+  padding: 20px 0 0;
+  font-family: var(--Primary-font);
+  font-weight: bolder;
+}
+.sentence {
+  font-size: 20px;
+  text-align: center;
+  margin: 50px;
+  padding: 20px;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
 }
 .btn-branding {
   background: var(--secondary-color);
   color: white;
   padding: 12px 30px;
   margin: 20px;
+}
+.btn-branding:hover {
+  color: var(--primary-color);
+  cursor: pointer;
 }
 .btn-branding-outline {
   display: block;
@@ -38,6 +55,10 @@ h4 {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+}
+.btn-branding-outline:hover {
+  color: var(--secondary-color);
+  cursor: pointer;
 }
 .hero {
   text-align: center;
@@ -55,8 +76,9 @@ h4 {
     font-size: 40px;
     line-height: 1;
   }
-  h3 {
+  h2 {
     font-size: 20px;
     line-height: 1;
+    text-align: center;
   }
 }
