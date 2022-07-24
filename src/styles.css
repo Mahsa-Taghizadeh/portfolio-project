@@ -3,14 +3,14 @@
   --secondary-color: #ff7c00;
   --primary-font: "Playfair Display", serif;
   --secondary-font: "Poppins", sans-serif;
-  --box-shadow: 1px 3px black;
+  --box-shadow: 3px 3px 5px rgb(239, 234, 234);
 }
 
 h1 {
   color: var(--primary-color);
   font-family: var(--primary-font);
   font-weight: bold;
-  font-size: 96px;
+  font-size: 80px;
   line-height: 1.5;
 }
 h2 {
@@ -36,17 +36,18 @@ h2 {
   border: 1px solid var(--primary-color);
   border-radius: 5px;
 }
-.btn-branding {
+.btn-branding-orange {
   background: var(--secondary-color);
   color: white;
   padding: 12px 30px;
   margin: 20px;
+  box-shadow: var(--box-shadow);
 }
-.btn-branding:hover {
+.btn-branding-orange:hover {
   color: var(--primary-color);
   cursor: pointer;
 }
-.btn-branding-outline {
+.btn-branding-purple {
   border-radius: 4px;
   padding: 20px 100px;
   text-decoration: none;
@@ -55,7 +56,7 @@ h2 {
   box-shadow: var(--box-shadow);
   color: white;
 }
-.btn-branding-outline:hover {
+.btn-branding-purple:hover {
   color: var(--secondary-color);
   cursor: pointer;
 }
@@ -76,22 +77,47 @@ h2 {
   font-size: 16px;
   line-height: 30px;
 }
+.about-section img {
+  max-width: 80%;
+  margin: 30px;
+}
+.certificates h1 {
+  color: black;
+  font-size: 65px;
+  margin-top: 30px;
+  text-align: center;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+}
+.work-section h1 {
+  color: black;
+  font-size: 65px;
+  margin-top: 40px;
+  text-align: center;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+}
 @media (max-width: 900px) {
+  .work-section h1,
   h1 {
     font-size: 32px;
     line-height: 1;
+    text-align: center;
   }
   h2 {
     font-size: 20px;
     line-height: 1;
     text-align: center;
   }
-  .btn-branding-outline {
-    display: block;
-    margin: 0 auto;
+  p {
+    text-align: center;
   }
-  .btn-branding {
+  .btn-branding-purple {
     display: block;
-    margin: 0 auto;
+    margin: 0px auto;
+  }
+  .btn-branding-orange {
+    display: block;
+    margin: 20px auto;
   }
 }
