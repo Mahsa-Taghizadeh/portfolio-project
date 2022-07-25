@@ -101,8 +101,9 @@ p {
 }
 @media (max-width: 900px) {
   .work-section h1,
+  .about-section h1,
   h1 {
-    font-size: 32px;
+    font-size: 20px;
     line-height: 1;
     text-align: center;
   }
